@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.container{
+    margin-top: 100px;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#cart {
+    background: whitesmoke;
+    padding: 15px;
+    display: grid;
+    justify-items: center;
+    border: 3px solid gainsboro;
+    
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    width: 40px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 5px 10px;
+    margin: 0 5px;
+    width: 40px;
+}
+
+.like-btn {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.like-btn.active {
+    color: #e74c3c;
+}
+img{
+    width: 15%;
+    cursor: pointer;
+}
+#total-price {
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border: 3px solid gainsboro;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    color: black;
+}
+
+#total{
+    display: contents;
+}
